@@ -1,0 +1,58 @@
+.container_1 {
+    background-color: #563D7C;
+    display: inline-block;
+}
+
+.button_1 {
+    outline-color: #ffe484;
+}
+
+.h1_1 {
+    color: #563D7C;
+}
+
+.a_1 {
+    outline-color: #563D7C;
+    outline-style: groove;
+}
+
+#p2 {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#segment {
+    position: static;
+    display: block;
+    max-width: 300px;
+    padding: 15px 15px 15px 10px;
+    margin: 2rem 0;
+    overflow: hidden;
+    font-size: .8125rem;
+    line-height: 1.4;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
